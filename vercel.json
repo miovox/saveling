@@ -1,11 +1,10 @@
 {
-  "monorepo": true,
-  "buildCommand": "cd apps/web && pnpm build",
-  "devCommand": "cd apps/web && pnpm dev",
-  "installCommand": "pnpm install",
-  "outputDirectory": "apps/web/.next",
+  "buildCommand": "cd ../.. && pnpm db:generate && cd apps/web && pnpm build",
+  "devCommand": "pnpm dev",
+  "installCommand": "cd ../.. && pnpm install",
+  "outputDirectory": ".next",
   "functions": {
-    "apps/web/app/api/**/*.ts": {
+    "app/api/**/*.ts": {
       "maxDuration": 30
     }
   }
