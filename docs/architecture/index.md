@@ -1,0 +1,25 @@
+# Saveling Fullstack Architecture Document
+
+## Table of Contents
+
+- [Saveling Fullstack Architecture Document](#table-of-contents)
+  - [01: Introduction](./01-introduction.md)
+  - [02: High-Level Architecture](./02-high-level-architecture.md)
+  - [03: Tech Stack](./03-tech-stack.md)
+  - [04: Data Models](./04-data-models.md)
+  - [05: API Specification](./05-api-specification.md)
+  - [06: Components](./06-components.md)
+  - [07: External APIs](./07-external-apis.md)
+  - [08: Core Workflows](./08-core-workflows.md)
+  - [09: Database Schema](./09-database-schema.md)
+  - [10: Frontend Architecture](./10-frontend-architecture.md)
+  - [11: Backend Architecture](./11-backend-architecture.md)
+  - [12: Unified Project Structure](./12-unified-project-structure.md)
+  - [13: Development Workflow](./13-development-workflow.md)
+  - [14: Deployment Architecture](./14-deployment-architecture.md)
+  - [15: Security and Performance](./15-security-and-performance.md)
+  - [16: Testing Strategy](./16-testing-strategy.md)
+  - [17: Coding Standards](./17-coding-standards.md)
+  - [18: Error Handling Strategy](./18-error-handling-strategy.md)
+  - [19: Monitoring and Observability](./19-monitoring-and-observability.md)
+  - [20: Architecture Validation Report](./20-architecture-validation-report.md)
