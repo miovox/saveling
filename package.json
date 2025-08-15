@@ -16,8 +16,10 @@
     "db:reset": "pnpm --filter db reset",
     "db:studio": "pnpm --filter db studio",
     "env:dev": "scripts/switch-env.sh development",
-    "env:prod": "scripts/switch-env.sh production",
-    "dev:fresh": "pnpm env:dev && pnpm dev"
+    "env:prod": "scripts/switch-env.sh production", 
+    "dev:fresh": "pnpm env:dev && pnpm dev",
+    "secrets": "scripts/generate-secrets.sh",
+    "deploy:check": "pnpm env:prod && pnpm build && pnpm test"
   },
   "devDependencies": {
     "typescript": "^5.0.0"
