@@ -3,9 +3,13 @@
 ## Parameters
 
 Licensed Work: Saveling
+
 Use Limitation: You may not use the Licensed Work for Production Use.
+
 Published Date: August 15, 2025
+
 Change Date: Five years from the date the Licensed Work is published
+
 Change License: MPL-2.0
 
 ## Terms
