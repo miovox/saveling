@@ -86,7 +86,7 @@ export default function LoginPage() {
               </Button>
             </form>
             <p className="text-center text-sm text-main-text/60 font-serif">
-              For demo purposes, the password is <span className="font-medium text-accent-gold">{"philip"}</span>
+              For demo purposes, use any password
             </p>
           </CardContent>
         </Card>
