@@ -1,0 +1,25 @@
+{
+  "name": "saveling",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "test": "pnpm --filter web test",
+    "lint": "pnpm --filter web lint",
+    "db:generate": "pnpm --filter db generate",
+    "db:migrate": "pnpm --filter db migrate",
+    "db:reset": "pnpm --filter db reset",
+    "db:studio": "pnpm --filter db studio",
+    "env:dev": "scripts/switch-env.sh development",
+    "env:prod": "scripts/switch-env.sh production",
+    "dev:fresh": "pnpm env:dev && pnpm dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
